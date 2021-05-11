@@ -2,8 +2,8 @@
 
 - [material-moodle](#material-moodle)
     + [features](#features)
-    + [screenshots](#screenshots)
-- [Installation](#installation)
+    + [Screenshots](#Screenshots)
+- [Installation](#Installation)
     + [Installation on Chrome](#installation-on-chrome)
     + [Installation on Firefox](#installation-on-firefox)
     + [Installation on Edge](#installation-on-edge)
@@ -15,11 +15,11 @@
 + vertical Navbar with global links and course links
 + minimal design
 
-## Sreenshots
+## Screenshots
 ![alt text](https://github.com/giggity-hub/material-moodle/blob/main/images/screenshot.png "Logo Title Text 1")
 
 # Installation 
-
+currently the Extension is still being screened for release in the Chrome and Firefox Stores. Until the Extension has been approved you can download it here directly 
 ### Installation on Chrome
 + donwload `Extendo.zip` and unpack it
 + Navigate to `chrome://extensions`
