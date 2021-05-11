@@ -26,7 +26,6 @@ currently the Extension is still being screened for release in the Chrome and Fi
 + enable Developer mode
 + press `Load unpacked`
 + select the Folder where you unpacked the zip
-+ your good to go
 
 ### Installation on Firefox
 + donwload `Extendo.zip` and unpack it
