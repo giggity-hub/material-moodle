@@ -1,19 +1,39 @@
+- [material-moodle](#material-moodle)
+    + [features](#features)
+    + [screenshots](#screenshots)
+- [Installation](#installation)
+    + [Installation on Chrome](#installation-on-chrome)
+    + [Installation on Firefox](#installation-on-firefox)
+    + [Installation on Edge](#installation-on-edge)
+- [Extension kaputtreparieren](#extension-kaputtreparieren)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # material-moodle
+### features
++ vertical Navbar with global links and course links
++ minimal design
+
+### screenshots
+![alt text](https://github.com/giggity-hub/material-moodle/blob/main/images/screenshot.png "Logo Title Text 1")
+
+# Installation 
 
 ### Installation on Chrome
-+ clone this repo into a local folder
++ donwload `Extendo.zip` and unpack it
 + Navigate to `chrome://extensions`
 + enable Developer mode
 + press `Load unpacked`
-+ select the Folder where you cloned the repo
++ select the Folder where you unpacked the zip
 + your good to go
 
 ### Installation on Firefox
-+ clone this repo into a local folder
++ donwload `Extendo.zip` and unpack it
 + Navigate to `about:debugging`
 + press `This Firefox`
 + press load temporary add-on
-+ navigate to folder where you cloned the repo and select the `manifest.json` file
++ navigate to folder where you unpacked the zip and select the `manifest.json` file
 
 
 ### Installation on Edge
