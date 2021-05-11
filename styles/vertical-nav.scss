@@ -1,0 +1,92 @@
+$width: 60px;
+
+.vertical-nav{
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    background: var(--primary);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 3000;
+}
+
+.vertical-nav-element{
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+// .vertical-nav  a:hover{
+//     color: white;
+// }
+// .vertical-nav  a:active{
+//     color: orange;
+// }
+
+
+
+.vertical-nav  a.active{
+    background: var(--primary--dark);
+    color: white !important;
+}
+
+// .vertical-nav a:hover{
+//     color: var(--primary--dark);
+// }
+
+.vertical-nav a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.vertical-nav-element{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vertical-nav  a .icon{
+    margin: 0;
+}
+
+.vertical-nav .spacer{
+    height: 2px;
+/*     background: var(--border-color); */
+    border-radius: 50px;
+    margin: 20px 5px
+}
+
+
+// hamburger button
+button[data-action="toggle-drawer"]{
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    background: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    &:hover, &:focus{
+        background: rgba(0,0,0,0) !important;
+    }
+}
+

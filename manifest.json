@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Moodle Theme Slim",
+  "version": "1.0.0",
+
+  "description": "Better looking Moodle",
+
+  "content_scripts": [
+    {
+      "matches": ["https://moodle.uni-due.de/*"], 
+      "run_at": "document_start",
+      "js": [
+        "lib/jquery-3.2.1.min.js",
+        "src/vertical-nav-injector.js",
+        "dist/style-injector.js" 
+      ]
+    }
+  ]
+
+}
+
+

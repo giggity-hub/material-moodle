@@ -1,0 +1,18 @@
+.card{
+    border-radius: var(--card__border-radius);
+    border: none;
+}
+
+body{
+    background: var(--body__background);
+}
+
+
+footer#page-footer{
+    background: inherit !important;
+    color: black !important;
+}
+
+footer#page-footer a{
+    color: var(--primary);
+}

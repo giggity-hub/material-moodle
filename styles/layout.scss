@@ -1,0 +1,36 @@
+@use 'nav-drawer.scss';
+@use 'vertical-nav.scss';
+
+// move top navbar and body according to the width of the nav drawer
+
+
+
+body{
+    margin-left: vertical-nav.$width;
+    transition: margin-left .3s ease-in-out !important;
+    .fixed-top.navbar{
+        margin-left: vertical-nav.$width;
+        transition: margin-left .3s ease-in-out;
+    }
+
+}
+
+body.drawer-open-left{
+    margin-left: vertical-nav.$width + nav-drawer.$width;
+    .fixed-top.navbar{
+        margin-left: vertical-nav.$width + nav-drawer.$width;
+    }
+
+
+}
+
+
+
+
+// exclude all the pages that do not have a nav-drawer
+body#page-login-index{
+    margin-left: 0;
+    .fixed-top.navbar{
+        margin-left: 0;
+    }
+}

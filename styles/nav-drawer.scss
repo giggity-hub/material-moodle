@@ -1,0 +1,32 @@
+//$vertical-nav__width: 60px;
+@use 'vertical-nav.scss' ;
+
+
+$width: 240px;
+
+#nav-drawer{
+    top:0;
+    width: $width;
+    padding: 0px;
+    height: 100vh;
+    transition: left .3s ease-in-out ;
+    left: vertical-nav.$width; 
+
+    &.closed{
+        left: vertical-nav.$width - $width; 
+        
+    }
+
+
+}
+
+
+.list-group-item{
+    background: inherit;
+    border: none !important;
+
+    &.active{
+        background: white;
+        color: var(--primary);
+    }
+}

@@ -1,0 +1,28 @@
+@function shade($color, $percentage) {
+    @return mix(black, $color, $percentage);
+}
+@function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+}
+
+
+$primary: #004c93;
+// $secondary: #50FAE0;
+
+:root{
+    --primary: #{$primary};
+    --primary--dark: #{shade($primary, 20%)};
+    --hamburger-color: white;
+
+
+    --body__background: #DEDFE3;
+
+    --nav-drawer__background: #F1F2F6;
+    --list-group-item__background--hover: white;
+    --list-group-item__background--active: white;
+    --list-group-item-color--hover: inherit;
+    --list-group-item-color--active: #{$primary};
+
+
+    --card__border-radius: 3px;
+}
