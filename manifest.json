@@ -2,7 +2,10 @@
   "manifest_version": 2,
   "name": "Material Moodle",
   "version": "0.0.1",
-
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "description": "Better looking Moodle",
 
   "content_scripts": [
@@ -11,8 +14,7 @@
       "run_at": "document_start",
       "js": [
         "lib/jquery-3.2.1.min.js",
-        "src/vertical-nav-injector.js",
-        "dist/style-injector.js" 
+        "dist/main.js" 
       ]
     }
   ]
