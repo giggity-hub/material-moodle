@@ -1,3 +1,5 @@
+# material-moodle
+
 - [material-moodle](#material-moodle)
     + [features](#features)
     + [screenshots](#screenshots)
@@ -7,15 +9,13 @@
     + [Installation on Edge](#installation-on-edge)
 - [Extension kaputtreparieren](#extension-kaputtreparieren)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
-# material-moodle
-### features
+## Features
 + vertical Navbar with global links and course links
 + minimal design
 
-### screenshots
+## Sreenshots
 ![alt text](https://github.com/giggity-hub/material-moodle/blob/main/images/screenshot.png "Logo Title Text 1")
 
 # Installation 
