@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Material Moodle",
   "version": "0.0.1",
-  "icons": [],
+
   "description": "Better looking Moodle",
 
   "content_scripts": [
