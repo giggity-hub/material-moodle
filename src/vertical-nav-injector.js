@@ -49,12 +49,23 @@ function removeTextAndShit(dataKey){
 }
 
 function navDrawerObserver(mutations, observer){
+
+    // We Assume that the "more" button is present on every page and will be inserted to the DOM
+    // after the datakeys of interest. If any of those assuptions is not true the code will fail.
+    $moreButton = $('.list-group-item[data-key="courseindexpage"]')
+
     $navDrawer = $('#nav-drawer');
-    if ($navDrawer.length) {
+    if ($moreButton.length) {
+        console.log($navDrawer);
         observer.disconnect();
+        
         const dataKeysGlobal = ["myhome", "home", "calendar", "privatefiles"];
         const dataKeysCourse = ["coursehome","participants", "badgesview", "competencies", "grades"];
 
+        dataKeysGlobal.map(dataKey => {
+          $listItem = $(`.list-group-item[data-key="${dataKey}"]`);
+          console.log(dataKey, $listItem);
+        })
         $verticalNav.append('<div class="spacer" />')
         $verticalNav.append(dataKeysGlobal.map(removeTextAndShit))
         $verticalNav.append('<div class="spacer" />')
@@ -63,5 +74,10 @@ function navDrawerObserver(mutations, observer){
   }
 }
 
-new MutationObserver(navDrawerObserver)
-    .observe(document.documentElement, {childList: true, subtree: true})
+
+let observer = new MutationObserver(navDrawerObserver)
+
+observer.observe(document.documentElement, {childList: true, subtree: true})
+
+
+console.log("sheeesh?");
